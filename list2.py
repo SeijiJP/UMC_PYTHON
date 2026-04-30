@@ -1,12 +1,12 @@
 lista = []
-for x in range (3):
-    nota = float(input(f"Digite a {x+1}° nota: "))
+for n in range(3):
+    nota = int(input(f"Digite a nota do {n+1}° elemento da lista: "))
     lista.append(nota)
-
-maioresqueamedia = []
-media = sum(lista) / len(lista)
+#Calcular a média das notas da lista.
+maioresquemedia = []
+media = sum(lista)/len(lista)
 for nota in lista:
     if nota > media:
-        maioresqueamedia.append(nota)
+        maioresquemedia.append(nota)
 
-print("Lista de notas maiores que a média: ", maioresqueamedia)
+print("Lista de notas maiores qur a média", maioresquemedia)
