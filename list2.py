@@ -9,4 +9,4 @@ for nota in lista:
     if nota > media:
         maioresquemedia.append(nota)
 
-print("Lista de notas maiores qur a média", maioresquemedia)
+print("Lista de notas maiores que a média", maioresquemedia)
