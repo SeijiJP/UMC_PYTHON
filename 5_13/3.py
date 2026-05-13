@@ -8,3 +8,4 @@ while len(lista) < 20:
     else:
         lista.append(numero)
         print("Lista final", lista)
+aa
