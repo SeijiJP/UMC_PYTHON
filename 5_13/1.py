@@ -6,3 +6,4 @@ def verificar(palavra):
         print("Não é um palindromo")
 texto = input("Digite um palavra: ")
 verificar(texto)
+#AAAA
