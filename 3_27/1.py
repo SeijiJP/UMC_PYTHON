@@ -3,7 +3,7 @@
 num = int(input("Digite um número positivo: "))
 
 while num < 0:
-    num = int(input("Número invalido, Digite novamente: "))
+    num = int(input("Número invalido, Digite novamente: 0"))
 while num >= 0:
     print(num)
     num -= 1

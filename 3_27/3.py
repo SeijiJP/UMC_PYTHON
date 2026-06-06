@@ -36,3 +36,5 @@ else:
     print("reprovado")
 
 continuar = input("Deseja continuar? sim ou não: " ).lower()
+while continuar != "sim" and continuar != "não":
+    continuar = input("Resposta invalida, digite novamente: sim ou não: ").lower()
